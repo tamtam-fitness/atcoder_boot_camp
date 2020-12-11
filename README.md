@@ -3,5 +3,5 @@
 
 pythonフォルダ内に各問題のフォルダがあります。
 
-#問題元のqitta
+# 問題元のqitta
 https://qiita.com/saba/items/affc94740aff117d2ca9
