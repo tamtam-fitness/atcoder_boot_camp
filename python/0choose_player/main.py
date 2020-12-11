@@ -45,11 +45,9 @@ def read_datetime():
         str_date = f.read()
         return str_date
 
-def write_datetime() -> None:
-    today = datetime.date.today()
-    today = today.strftime("%Y-%m-%d")
+def write_datetime(str_today: str) -> None:
     with open("./0choose_player/date.txt", "w") as f:
-        f.write(today)
+        f.write(str_today)
 
 
 if __name__ == "__main__":
@@ -78,8 +76,8 @@ if __name__ == "__main__":
         print_questions_num_and_player(players)
 
         #出力した日付を選択
-        write_datetime() 
-        print(f"選定日を更新しました")
+        write_datetime(str_today) 
+        print(f"選定日を更新しました：{str_today}")
 
  
 
