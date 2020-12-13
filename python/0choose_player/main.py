@@ -1,6 +1,7 @@
 import random
 import time
 import datetime
+import pytz
 from typing import List
 
 def read_pre_not_player() -> str:
@@ -51,9 +52,11 @@ def write_datetime(str_today: str) -> None:
 
 
 if __name__ == "__main__":
-
     str_date = read_datetime()
-    today = datetime.date.today()
+    # today = datetime.date.today()
+    JST = datetime.timezone(datetime.timedelta(hours=+9), 'JST')
+    #GOOD, タイムゾーンを指定している．早い
+    today = datetime.datetime.now(JST)
     str_today = today.strftime("%Y-%m-%d")
     
     if str_date == str_today :
@@ -78,9 +81,6 @@ if __name__ == "__main__":
         #出力した日付を選択
         write_datetime(str_today) 
         print(f"選定日を更新しました：{str_today}")
-
- 
-
 
  
 

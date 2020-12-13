@@ -1,10 +1,9 @@
 N = int(input())
-meat_time_list = []
-for _ in range(N):
-  meat_time_list.append(int(input()))
+meat_time_list = [int(input()) for _ in range(N) ]
   
 # 4, 3 ,2 ,1 降順
 sorted_meat_time_li = sorted(meat_time_list, reverse = 1)
+
 
 #初期値の設定
 gril_a = [0]
