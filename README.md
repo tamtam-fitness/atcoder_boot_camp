@@ -7,5 +7,7 @@ pythonフォルダ内に各問題のフォルダがあります。
 ## 問題元のqitta
 - [蟻本をPythonで (初級編)](https://qiita.com/saba/items/affc94740aff117d2ca9)
 
-## Densuke-fitnessが解説したアルゴリム記事
+## Densuke-fitnessが解説したアルゴリズム記事
 - [アルゴリズム力UP!『ABC 045 C たくさんの数式 』を解いてみよう](https://qiita.com/Densuke-fitness/items/419665fdb70806875bc4)
+
+- [アルゴリズム力UP!『ARC 029 A 高橋君とお肉 』を解いてみよう](https://qiita.com/Densuke-fitness/items/6a260a6ea8b4b7a315c5)
