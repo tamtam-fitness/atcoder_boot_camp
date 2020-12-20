@@ -11,3 +11,10 @@ pythonフォルダ内に各問題のフォルダがあります。
 - [アルゴリズム力UP!『ABC 045 C たくさんの数式 』を解いてみよう](https://qiita.com/Densuke-fitness/items/419665fdb70806875bc4)
 
 - [アルゴリズム力UP!『ARC 029 A 高橋君とお肉 』を解いてみよう](https://qiita.com/Densuke-fitness/items/6a260a6ea8b4b7a315c5)
+
+- [アルゴリズム力UP!『ATC 001 A 幅優先探索 』を解いてみよう](https://qiita.com/Densuke-fitness/items/0bc527a7a4f00b14eacb)
+
+- [アルゴリズム力UP!『ARC 005 C 器物損壊！高橋君』を解いてみよう](https://qiita.com/Densuke-fitness/items/986f87becdbdb06e5cd5)
+
+
+
